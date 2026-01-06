@@ -1,2 +1,0 @@
-elliptic/Elliptic_Dataset/*.csv filter=lfs diff=lfs merge=lfs -text
-elliptic/Elliptic_Dataset/*.tsv filter=lfs diff=lfs merge=lfs -text
