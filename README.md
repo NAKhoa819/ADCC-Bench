@@ -15,7 +15,7 @@ This repository supports experiments on the following datasets (please follow ea
 - **Ethereum Fraud Detection (account-level features)** — Kaggle dataset:  
   `https://www.kaggle.com/datasets/vagifa/ethereum-frauddetection-dataset/data`
 
-## Benchmark protocol (high level)
+## Benchmark protocol 
 - **Splitting**: chronological split for dynamic transaction graphs; stratified splits for static/aggregated profiles.
 - **Training**: unified tuning (validation-based) and final retraining on train+val.
 - **Evaluation**: Macro-F1 / AUC-ROC with **multi-seed runs** and **Welch’s t-test** for stability and significance.
